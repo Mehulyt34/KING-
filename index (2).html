@@ -1,0 +1,264 @@
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>
+   King - Music Streaming
+  </title>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&amp;display=swap" rel="stylesheet"/>
+  <script>
+   function playMusic(url) {
+      window.open(url, '_blank');
+    }
+  </script>
+ </head>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+        }
+        #ad-container {
+            width: 320px; /* Set to your banner width */
+            height: 50px; /* Set to your banner height */
+            background-color: #ccc; /* Placeholder for ad */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    </style>
+<body>
+    <h1>AdMob Test Banner</h1>
+    <div id="ad-container">
+        <p>Ad Placeholder</p>
+    </div>
+
+    <script>
+        // This is a placeholder for the ad code.
+        // In a real application, you would initialize the AdMob SDK here.
+        // Since AdMob is not designed for web, we use a placeholder.
+        
+        // Simulate loading an ad
+        setTimeout(function() {
+            document.getElementById('ad-container').innerHTML = '<p>Ad Loaded!</p>';
+        }, 2000); // Simulate a 2-second load time
+    </script>
+</body>
+ <body class="bg-gray-900 text-white font-roboto">
+  <header class="bg-gray-800 p-4 flex justify-between items-center">
+   <div class="flex items-center">
+    <img alt="King logo, a golden crown with musical notes" class="h-10 w-10" height="50" src="https://storage.googleapis.com/a1aa/image/ONuaxogDQmLnA9u5Bsl8UN1bWfc0EMajMBqwsJ3ZKmf1S12TA.jpg" width="50"/>
+    <h1 class="text-2xl font-bold ml-2">
+     King
+    </h1>
+   </div>
+   <div class="flex items-center space-x-4">
+    <a class="text-gray-300 hover:text-white" href="#">
+     Home
+    </a>
+    <a class="text-gray-300 hover:text-white" href="#">
+     Browse
+    </a>
+    <a class="text-gray-300 hover:text-white" href="#">
+     Library
+    </a>
+    <a class="text-gray-300 hover:text-white" href="#">
+     Search
+    </a>
+   </div>
+  </header>
+  <main class="p-4">
+   <section class="mb-8">
+    <h2 class="text-3xl font-bold mb-4">
+     Featured Playlists
+    </h2>
+    <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-4">
+     <div class="bg-gray-800 p-4 rounded-lg cursor-pointer" onclick="playMusic('https://www.youtube.com/watch?v=dQw4w9WgXcQ')">
+      <img alt="Playlist cover with abstract colorful shapes" class="rounded-lg mb-2" height="300" src="https://storage.googleapis.com/a1aa/image/oyCOrlV7ESLTGJzfzVUqLypxmhLl3xzJcAgfh8RVPYIFT12TA.jpg" width="300"/>
+      <h3 class="text-lg font-semibold">
+       Top Hits
+      </h3>
+      <p class="text-gray-400">
+       The hottest tracks right now
+      </p>
+     </div>
+     <div class="bg-gray-800 p-4 rounded-lg">
+      <img alt="Playlist cover with a sunset over a beach" class="rounded-lg mb-2" height="300" src="https://storage.googleapis.com/a1aa/image/9XthSYz7SfxmFiMffHjkYxbmZpQC8la8FvJof2Vl4JhsLVbPB.jpg" width="300"/>
+      <h3 class="text-lg font-semibold">
+       Chill Vibes
+      </h3>
+      <p class="text-gray-400">
+       Relax and unwind
+      </p>
+     </div>
+     <div class="bg-gray-800 p-4 rounded-lg">
+      <img alt="Playlist cover with a person running on a trail" class="rounded-lg mb-2" height="300" src="https://storage.googleapis.com/a1aa/image/uM7ID4Z11nYVCFASSHpTCyQouPnPJpeHgRdSHbfyHZh5S12TA.jpg" width="300"/>
+      <h3 class="text-lg font-semibold">
+       Workout
+      </h3>
+      <p class="text-gray-400">
+       Get pumped up
+      </p>
+     </div>
+     <div class="bg-gray-800 p-4 rounded-lg">
+      <img alt="Playlist cover with a coffee cup and a book" class="rounded-lg mb-2" height="300" src="https://storage.googleapis.com/a1aa/image/B5HmwsOoFu6eAaAe5K5swkU7iCf34Vr1atL6TsEKKWsllqtnA.jpg" width="300"/>
+      <h3 class="text-lg font-semibold">
+       Morning Coffee
+      </h3>
+      <p class="text-gray-400">
+       Start your day right
+      </p>
+     </div>
+     <div class="bg-gray-800 p-4 rounded-lg">
+      <img alt="Playlist cover with a city skyline at night" class="rounded-lg mb-2" height="300" src="https://storage.googleapis.com/a1aa/image/ht2YM8Lewfl63UPZXfCKwwS2rKjyQBjfdUldBqetcA5wWq2eE.jpg" width="300"/>
+      <h3 class="text-lg font-semibold">
+       Night Drive
+      </h3>
+      <p class="text-gray-400">
+       Late night tunes
+      </p>
+     </div>
+     <div class="bg-gray-800 p-4 rounded-lg">
+      <img alt="Playlist cover with a person meditating" class="rounded-lg mb-2" height="300" src="https://storage.googleapis.com/a1aa/image/6dcUDKj7XCYZLpvO7UHdXL5yfwsKKhe2OHgjagIV8NOxS12TA.jpg" width="300"/>
+      <h3 class="text-lg font-semibold">
+       Meditation
+      </h3>
+      <p class="text-gray-400">
+       Find your inner peace
+      </p>
+     </div>
+    </div>
+   </section>
+   <section class="mb-8">
+    <h2 class="text-3xl font-bold mb-4">
+     New Releases
+    </h2>
+    <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-4">
+     <div class="bg-gray-800 p-4 rounded-lg">
+      <img alt="Album cover with a futuristic cityscape" class="rounded-lg mb-2" height="300" src="https://storage.googleapis.com/a1aa/image/aeUC5HPhhH23e0o8GfkR3tNRz63MewkSH8oG1dArfWcSZq2eE.jpg" width="300"/>
+      <h3 class="text-lg font-semibold">
+       Future Sounds
+      </h3>
+      <p class="text-gray-400">
+       Artist Name
+      </p>
+     </div>
+     <div class="bg-gray-800 p-4 rounded-lg">
+      <img alt="Album cover with a forest and a river" class="rounded-lg mb-2" height="300" src="https://storage.googleapis.com/a1aa/image/zVrCWLaYrHpMFZIBPU3bQaq2XwJuZBzkUrLr1kfsveMIT12TA.jpg" width="300"/>
+      <h3 class="text-lg font-semibold">
+       Nature's Melody
+      </h3>
+      <p class="text-gray-400">
+       Artist Name
+      </p>
+     </div>
+     <div class="bg-gray-800 p-4 rounded-lg">
+      <img alt="Album cover with a retro 80s design" class="rounded-lg mb-2" height="300" src="https://storage.googleapis.com/a1aa/image/fstJ2edPauiS1kSf1Bz615aqKF9m1K9teNyGYnry8EUKMVbPB.jpg" width="300"/>
+      <h3 class="text-lg font-semibold">
+       Retro Wave
+      </h3>
+      <p class="text-gray-400">
+       Artist Name
+      </p>
+     </div>
+     <div class="bg-gray-800 p-4 rounded-lg">
+      <img alt="Album cover with a person playing guitar" class="rounded-lg mb-2" height="300" src="https://storage.googleapis.com/a1aa/image/99y0Mfn8bBTJWiLpB3sfDtMNoOUeqw5f5eo1zETJv2xewUt9E.jpg" width="300"/>
+      <h3 class="text-lg font-semibold">
+       Acoustic Sessions
+      </h3>
+      <p class="text-gray-400">
+       Artist Name
+      </p>
+     </div>
+     <div class="bg-gray-800 p-4 rounded-lg">
+      <img alt="Album cover with a space theme" class="rounded-lg mb-2" height="300" src="https://storage.googleapis.com/a1aa/image/lS97x6gH9Q5bGJPb0cr3yDrl4pglbqR0aXIplCW4AlHwUt9E.jpg" width="300"/>
+      <h3 class="text-lg font-semibold">
+       Galactic Beats
+      </h3>
+      <p class="text-gray-400">
+       Artist Name
+      </p>
+     </div>
+     <div class="bg-gray-800 p-4 rounded-lg">
+      <img alt="Album cover with a person dancing in the rain" class="rounded-lg mb-2" height="300" src="https://storage.googleapis.com/a1aa/image/FVoLbpyCMoawDZxP0mIasY6T8fr0Oi1zFQzTeFjRDZV0S12TA.jpg" width="300"/>
+      <h3 class="text-lg font-semibold">
+       Dance Fever
+      </h3>
+      <p class="text-gray-400">
+       Artist Name
+      </p>
+     </div>
+    </div>
+   </section>
+   <section>
+    <h2 class="text-3xl font-bold mb-4">
+     Top Artists
+    </h2>
+    <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-4">
+     <div class="bg-gray-800 p-4 rounded-lg flex flex-col items-center">
+      <img alt="Artist photo of a person with a microphone" class="rounded-full mb-2" height="150" src="https://storage.googleapis.com/a1aa/image/KqA8IwqWBTKSBJcpYbpIvA3Vg5DuJKtCMxvjBgVeWJmeS12TA.jpg" width="150"/>
+      <h3 class="text-lg font-semibold">
+       Artist Name
+      </h3>
+     </div>
+     <div class="bg-gray-800 p-4 rounded-lg flex flex-col items-center">
+      <img alt="Artist photo of a person with a guitar" class="rounded-full mb-2" height="150" src="https://storage.googleapis.com/a1aa/image/nyUEU81p2fS5Aqej9W3izG65eo6IPVoA0mqqFD665UNulqtnA.jpg" width="150"/>
+      <h3 class="text-lg font-semibold">
+       Artist Name
+      </h3>
+     </div>
+     <div class="bg-gray-800 p-4 rounded-lg flex flex-col items-center">
+      <img alt="Artist photo of a person with a DJ setup" class="rounded-full mb-2" height="150" src="https://storage.googleapis.com/a1aa/image/1s36EMJbSvqtMlH9DUz3enRvtGqagZMqdDWUXj9ytJdfS12TA.jpg" width="150"/>
+      <h3 class="text-lg font-semibold">
+       Artist Name
+      </h3>
+     </div>
+     <div class="bg-gray-800 p-4 rounded-lg flex flex-col items-center">
+      <img alt="Artist photo of a person with a piano" class="rounded-full mb-2" height="150" src="https://storage.googleapis.com/a1aa/image/UpjXSKOWHf0eiUekNdlksuJAcSdGr43l8RvNDe0NHG0rLVbPB.jpg" width="150"/>
+      <h3 class="text-lg font-semibold">
+       Artist Name
+      </h3>
+     </div>
+     <div class="bg-gray-800 p-4 rounded-lg flex flex-col items-center">
+      <img alt="Artist photo of a person with a violin" class="rounded-full mb-2" height="150" src="https://storage.googleapis.com/a1aa/image/rwN79W1dxZZSORkBnLtn8Fed3BuRe5F6ekqV3Bru4nkPmqtnA.jpg" width="150"/>
+      <h3 class="text-lg font-semibold">
+       Artist Name
+      </h3>
+     </div>
+     <div class="bg-gray-800 p-4 rounded-lg flex flex-col items-center">
+      <img alt="Artist photo of a person with a saxophone" class="rounded-full mb-2" height="150" src="https://storage.googleapis.com/a1aa/image/ootOvbdyWZbGApytJAMto0KB26wsEfOGV0LRas6QexgflqtnA.jpg" width="150"/>
+      <h3 class="text-lg font-semibold">
+       Artist Name
+      </h3>
+     </div>
+    </div>
+   </section>
+  </main>
+  <footer class="bg-gray-800 p-4 mt-8">
+   <div class="flex justify-between items-center">
+    <p class="text-gray-400">
+     © 2023 King. All rights reserved.
+    </p>
+    <div class="flex space-x-4">
+     <a class="text-gray-400 hover:text-white" href="#">
+      <i class="fab fa-facebook-f">
+      </i>
+     </a>
+     <a class="text-gray-400 hover:text-white" href="#">
+      <i class="fab fa-twitter">
+      </i>
+     </a>
+     <a class="text-gray-400 hover:text-white" href="#">
+      <i class="fab fa-instagram">
+      </i>
+     </a>
+    </div>
+   </div>
+  </footer>
+ </body>
+</html>
